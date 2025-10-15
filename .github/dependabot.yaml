@@ -1,4 +1,10 @@
 updates:
+  - package-ecosystem: docker-compose
+    directories:
+      - /compose-json
+      - /compose-yaml
+    schedule:
+      interval: daily
   - package-ecosystem: uv
     directory: /
     schedule:
